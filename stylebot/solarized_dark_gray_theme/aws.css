@@ -1,0 +1,123 @@
+:root {
+  color-scheme: dark;
+  --bold-border: #0e1b20;
+  --border: #465358;
+  --black: #263338;
+  --bold-black: #1e2b30;
+  --black-cyan: #264348;
+  --blue: #268ad2;
+  --light-blue: #46aaf2;
+  --dark-blue: #293e47;
+  --bold-blue: #839495;
+  --cyan: #2aa197;
+  --bold-cyan: #93a0a1;
+  --gray-dark: #263338;
+  --gray: #465358;
+  --green: #859901;
+  --bold-green: #586d74;
+  --bold-magenta: #8c8ee6;
+  --indigo: #6c6ec6;
+  --magenta: #d33582;
+  --orange: #fd7e14;
+  --pink: #e83e8c;
+  --purple: #8c8ee6;
+  --light-purple: #caccef;
+  --red: #dc312e;
+  --red-pink: #dc3545;
+  --bold-red: #cb4a16;
+  --teal: #20c997;
+  --white: #eee8d5;
+  --bold-white: #fdf6e3;
+  --bold-yellow: #657b82;
+  --yellow: #e5a900;
+  --primary: #268ad2;
+  --secondary: #93a0a1;
+  --success: #859901;
+  --info: #2aa197;
+  --warning: #b58900;
+  --danger: #dc312e;
+  --dark: #1e2b30;
+  --darker: #0e1b20;
+  --light: #eaecef;
+  --green-highlight: rgb(232, 255, 151);
+
+  --gray-50: #fefdff;
+  --gray-100: #e3e3e6;
+  --gray-200: #c8cacd;
+  --gray-300: #99a6ab;
+  --gray-400: #839095;
+  --gray-500: #6d7b80;
+  --gray-600: #59666b;
+  --gray-700: #455257;
+  --gray-750: #3b484d;
+  --gray-800: #323f44;
+  --gray-900: #1f2c31;
+  --gray-950: #172329;
+}
+
+.awsui_body-cell_c6tup_1wfrk_152>.awsui_body-cell-content_c6tup_1wfrk_160:not(#\9 ) {
+  padding-block-start: 1px;
+}
+.awsui_body-cell_c6tup_1wfrk_152>.awsui_body-cell-content_c6tup_1wfrk_160:not(#\9 ) {
+  padding-block-end: 1px;
+}
+[class*="awsui_row_"]:hover td {
+  background-color: var(--black-cyan);
+}
+.awsui-polaris-dark-mode.awsui-visual-refresh .awsui-context-app-layout-toolbar:not(#\ ) {
+  --color-background-layout-main-taq3m8: var(--bold-black);
+}
+.awsui-polaris-dark-mode .awsui-context-app-layout-toolbar:not(#\ ) {
+  background-color: var(--bold-black);
+}
+.awsui-polaris-dark-mode .awsui-context-app-layout-toolbar:not(#\ ) {
+  --color-background-layout-main-htt4fm: var(--bold-black);
+}
+
+
+
+html {
+  background-color: var(--bold-black);
+}
+.awsui_row_wih1l_1q04c_359:nth-of-type(even) {
+  background-color: var(--black);
+}
+.awsui-polaris-dark-mode.awsui-visual-refresh:not(#\ ), .awsui-polaris-dark-mode:not(#\ ) {
+  --color-background-container-content-x1dxuu: var(--bold-black);
+  --color-background-container-header-etndi4: var(--bold-black);
+  --color-background-control-default-qjjy1s: var(--bold-black);
+  --color-background-input-default-bh53wr: var(--bold-black);
+  --color-background-layout-main-taq3m8: var(--bold-black);
+  --color-background-layout-panel-content-99qshe: var(--bold-black);
+  --color-background-segment-default-vom4y9: var(--bold-black);
+  --color-background-segment-disabled-0sowgk: var(--bold-black);
+  --color-background-segment-wrapper-eunk0l: var(--bold-black);
+  --color-background-slider-handle-ring-pgpqmt: var(--bold-black);
+  --color-background-table-header-rjqhy8: var(--bold-black);
+  --color-border-calendar-grid-selected-focus-ring-sytrvs: var(--bold-black);
+  --color-foreground-control-disabled-gyioux: var(--bold-black);
+  --color-text-layout-toggle-active-lz5ee5: var(--bold-black);
+  --color-dropzone-background-default-eeut4o: var(--bold-black);
+  --color-border-input-default-mr3924: var(--border);
+  --color-border-cell-shaded-1emful: var(--border);
+  --color-border-code-editor-default-n16e59: var(--border);
+  --color-border-code-editor-pane-item-hover-5h4f35: var(--border);
+  --color-border-control-checked-odv1rr: #42b4ff;
+  --color-border-control-disabled-bnzzmj: var(--border);
+  --color-border-divider-active-7baolw: #f9f9fa;
+  --color-border-divider-default-6sbidx: var(--border);
+  --color-border-divider-panel-bottom-v0deuv: var(--border);
+  --color-border-divider-panel-side-y2lot0: var(--border);
+  --color-border-divider-secondary-iammms: var(--bold-border);
+  --color-border-dropdown-container-xi63eq: var(--border);
+  --color-border-dropdown-group-tu6b11: var(--border);
+  --color-border-dropdown-item-default-etkshp: var(--border);
+  --color-border-dropdown-item-hover-t6obhh: var(--border);
+
+  --color-background-container-content-h114dj: var(--bold-black);
+  --color-background-status-warning-vog9u8: var(--bold-black);
+}
+
+div.awsui_content_5gtk3_1svk7_193 {
+
+}

@@ -1,0 +1,182 @@
+body { background-color: #eaeaea; }
+
+#header_logo, hr.autopagerize_page_separator { display: none; }
+
+#site_menu {
+    background-color: #eaeaea;
+    background-image: none;
+    border-width: 0;
+    color: grey;
+}
+div#line { border: none ; }
+
+.forum_header_border tr, .section_header_column {
+    background-color: #fafafa;
+}
+
+.forum_header_border tr.hover { background: #eaeaea; }
+
+a.ddl, a.magnet, a.download_1, a.download_2, a.download_3, a.download_4, a.download_5, a.download_6, table.forum_header_border {
+    border-width: 0;
+}
+
+* { font-family: Helvetica ; }
+
+body, a.epinfo, span.highlight, a.thread_link b font, a.thread_link {
+  font-family: Sans Serif ;
+  font-size: 13px;
+}
+
+a.epinfo, a.header, a.thread_link { color: steelblue; }
+a.thread_link:hover { color: #444; }
+
+a.epinfo:hover { text-decoration: none; }
+
+a.site_menu {
+    background-image: none;
+    border-width: 0;
+    color: steelblue;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+div.forum_thread_header {
+    background-color: #eaeaea;
+    background-image: none;
+    border-width: 0;
+}
+
+td.forum_header, td.forum_header a img, td.forum_header.featured_links {
+    background-color: inherit ;
+}
+
+tr.forum_header_border:nth-child(odd) {
+    background-color: #eaeaea ;
+}
+/*--------------- gradient ---------------*/
+table.forum_header_border:nth-of-type(6) tr.forum_header_border:nth-child(even) td.forum_thread_post_end {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fafafa), color-stop(100%,#eaeaea)) ;
+}
+tr.forum_header_border:nth-child(even) td.forum_thread_post:nth-child(1) {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eaeaea), color-stop(100%,#fafafa)) ;
+}
+/*--------------- hover gradient ---------------*/
+tr.forum_header_border:hover td.forum_thread_post:nth-child(1) {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eaeaea), color-stop(100%,#cde)) ;
+}
+tr.forum_header_border.hover td.forum_thread_post_end {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#cde), color-stop(100%,#eaeaea)) ;
+}
+
+
+tr.forum_header_border.hover { background-color: #cde; }
+
+td.forum_thread_header {
+    background-color: #eaeaea;
+    background-image: none;
+    border-width: 0;
+    color: steelblue;
+    border: none;
+}
+
+td.forum_thread_header_end {
+    background-color: #eaeaea ;
+    background-image: none;
+    border-width: 0;
+    color: grey;
+}
+
+td.forum_thread_post, td.forum_thread_post_end.featured_main, .forum_thread_post_end { border: none; }
+
+td.section_create { background-color: #eaeaea; }
+
+td.section_post_header {
+    background-color: #eaeaea;
+    background-image: none;
+    border-width: 0;
+    color: grey;
+}
+
+tr.forum_space_border td {
+    background-color: #eaeaea;
+    color: grey;
+}
+
+span.form_action_left {
+    background-color: #e6e6e6;
+    background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
+    border: 0px solid #bbb;
+    border-right: 0;
+}
+
+span.form_action_right {
+    background-color: #e6e6e6;
+    background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
+    border: 0px solid #bbb;
+    border-left: 0;
+}
+
+span.form_action_text {
+    background-color: #e6e6e6;
+    color: #08c;
+    background-image: -webkit-linear-gradient(#ffffff, #e6e6e6);
+    border-top: 0px solid #bbb;
+    border-bottom: 0px solid #bbb;
+}
+
+span.form_action_text:hover { color: #444; }
+
+#gap {
+    display: none;
+    border-style: none;
+}
+
+#divider {
+    border-color: #d0d0d0;
+    display: none;
+}
+
+a.magnet {
+/*  background: url('http://i.imgur.com/GZyFJNq.png') no-repeat ;*/
+}
+a.magnet:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') 0px 0 ; }
+
+a.download_1 {
+  background: no-repeat url('https://i.imgur.com/GZyFJNq.png') -15px 0 ; }
+a.download_1:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -15px 0 ; }
+
+a.download_2 {
+  background: no-repeat url('https://i.imgur.com/GZyFJNq.png') -31px 0 ; }
+a.download_2:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -31px 0 ; }
+
+a.download_3 {
+  background: no-repeat url('https://i.imgur.com/GZyFJNq.png') -47px 0 ; }
+a.download_3:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -47px 0 ; }
+
+a.download_4 {
+  background: no-repeat url('https://i.imgur.com/GZyFJNq.png') -63px 0 ; }
+a.download_4:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -63px 0 ; }
+
+a.download_5 {
+  background: no-repeat url('https://i.imgur.com/GZyFJNq.png') -79px 0 ; }
+a.download_5:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -79px 0 ; }
+
+a.download_6 {
+  background: no-repeat url('https://i.imgur.com/GZyFJNq.png') -95px 0 ; }
+a.download_6:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -95px 0 ; }
+
+a.ddl:hover {
+  background: no-repeat url('https://i.imgur.com/NqP1NdA.png') -112px 0 ; }
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+/* https://sw.kovidgoyal.net/kitty/sessions/ */
+
+:root {
+  color-scheme: dark;
+  --bold-border: #0e1b20;
+  --border: #465358;
+  --black: #263338;
+  --bold-black: #1e2b30;
+  --black-cyan: #264348;
+  --blue: #268ad2;
+  --light-blue: #46aaf2;
+  --dark-blue: #293e47;
+  --bold-blue: #839495;
+  --cyan: #2aa197;
+  --bold-cyan: #93a0a1;
+  --gray-dark: #263338;
+  --gray: #465358;
+  --green: #859901;
+  --bold-green: #586d74;
+  --bold-magenta: #8c8ee6;
+  --indigo: #6c6ec6;
+  --magenta: #d33582;
+  --orange: #fd7e14;
+  --pink: #e83e8c;
+  --purple: #8c8ee6;
+  --light-purple: #caccef;
+  --red: #dc312e;
+  --red-pink: #dc3545;
+  --bold-red: #cb4a16;
+  --teal: #20c997;
+  --white: #eee8d5;
+  --bold-white: #fdf6e3;
+  --bold-yellow: #657b82;
+  --yellow: #b58900;
+  --primary: #268ad2;
+  --secondary: #93a0a1;
+  --success: #859901;
+  --info: #2aa197;
+  --warning: #b58900;
+  --danger: #dc312e;
+  --dark: #1e2b30;
+  --darker: #0e1b20;
+  --light: #eaecef;
+  --green-highlight: rgb(232, 255, 151);
+
+  --gray-50: #fefdff;
+  --gray-100: #e3e3e6;
+  --gray-200: #c8cacd;
+  --gray-300: #99a6ab;
+  --gray-400: #839095;
+  --gray-500: #6d7b80;
+  --gray-600: #59666b;
+:root {
+  color-scheme: dark;
+  --bold-border: #0e1b20;
+  --border: #465358;
+  --black: #263338;
+  --bold-black: #1e2b30;
+  --black-cyan: #264348;
+  --blue: #268ad2;
+  --light-blue: #46aaf2;
+  --dark-blue: #293e47;
+  --bold-blue: #839495;
+  --cyan: #2aa197;
+  --bold-cyan: #93a0a1;
+  --gray-dark: #263338;
+  --gray: #465358;
+  --green: #859901;
+  --bold-green: #586d74;
+  --bold-magenta: #8c8ee6;
+  --indigo: #6c6ec6;
+  --magenta: #d33582;
+  --orange: #fd7e14;
+  --pink: #e83e8c;
+  --purple: #8c8ee6;
+  --light-purple: #caccef;
+  --red: #dc312e;
+  --red-pink: #dc3545;
+  --bold-red: #cb4a16;
+  --teal: #20c997;
+  --white: #eee8d5;
+  --bold-white: #fdf6e3;
+  --bold-yellow: #657b82;
+  --yellow: #e5a900;
+  --primary: #268ad2;
+  --secondary: #93a0a1;
+  --success: #859901;
+  --info: #2aa197;
+  --warning: #b58900;
+  --danger: #fc413e;
+  --dark: #1e2b30;
+  --darker: #0e1b20;
+  --light: #eaecef;
+  --green-highlight: rgb(232, 255, 151);
+
+  --gray-50: #fefdff;
+  --gray-100: #e3e3e6;
+  --gray-200: #c8cacd;
+  --gray-300: #99a6ab;
+  --gray-400: #839095;
+  --gray-500: #6d7b80;
+  --gray-600: #59666b;
+  --gray-700: #455257;
+  --gray-750: #3b484d;
+  --gray-800: #323f44;
+  --gray-900: #1f2c31;
+  --gray-950: #172329;
+}
+html {
+  background-color: var(--bold-black);
+}
+body {
+  --color-api-pre-name: var(--yellow);
+}
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme=light]) {
+    --color-problematic: var(--danger);
+    --color-foreground-primary: var(--bold-cyan);
+    --color-foreground-secondary: var(--bold-blue);
+    --color-foreground-muted: var(--bold-green);
+    --color-foreground-border: var(--border);
+    --color-background-primary: var(--bold-black);
+    --color-background-secondary: var(--black);
+    --color-background-hover: #1e2124;
+    --color-background-hover--transparent: #1e212400;
+    --color-background-border: var(--border);
+    --color-background-item: var(--darker);
+    --color-announcement-background: var(--darker);
+    --color-announcement-text: var(--bold-white);
+    --color-brand-primary: var(--blue);
+    --color-brand-content:var(--light-blue);
+    --color-brand-visited: var(--bold-magenta);
+    --color-highlighted-background: var(--darker);
+    --color-guilabel-background: #0e1b2080;
+    --color-guilabel-border: #46535880;
+    --color-api-keyword: var(--color-foreground-secondary);
+    --color-highlight-on-target: #330;
+    --color-api-added: var(--green);
+    --color-api-added-border: #267334;
+    --color-api-changed: #09b0ce;
+    --color-api-changed-border: #056d80;
+    --color-api-deprecated: #b1a10b;
+    --color-api-deprecated-border: #6e6407;
+    --color-api-removed: #ff7575;
+    --color-api-removed-border: #b03b3b;
+    --color-admonition-background: #18181a;
+    --color-card-border: var(--color-background-secondary);
+    --color-card-marginals-background: var(--color-background-hover);
+    --color-admonition-background: var(--color-background-secondary);
+    --color-card-background: var(--color-background-secondary);
+    --color-code-background: ;
+    --color-code-foreground: #d0d0d0;
+  }
+}
+
+.highlight {
+  background-color: var(--black);
+}
+.highlight .c1 {
+  color: var(--gray-600);
+}
+.highlight .kd {
+  color: var(--green);
+}
+
+pre {
+  color: var(--bold-white);
+}

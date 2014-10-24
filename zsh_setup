@@ -1,0 +1,14 @@
+export ZSH=$HOME/.zsh
+
+
+##### AUTOLOAD ZSH FUNCTIONS ###################################################
+fpath=(~/.zsh/functions $fpath)
+autoload -U ~/.zsh/functions/*(:t)
+
+
+##### ZSH THEME ################################################################
+source "$ZSH/themes/velina.zsh-theme"
+
+for plugin in "$ZSH/plugins/*.plugin.zsh"; do
+  source $plugin
+done

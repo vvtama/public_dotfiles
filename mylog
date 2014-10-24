@@ -1,0 +1,697 @@
+
+chdir(/opt/homebrew/share/vim)
+fchdir() to previous dir
+could not source "$VIM/vimrc"
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+could not source "$VIMRUNTIME/macmap.vim"
+chdir(/Users/vveleva)
+fchdir() to previous dir
+sourcing "$HOME/.vimrc"
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 2: sourcing "/opt/homebrew/share/vim/vim91/filetype.vim"
+not found in 'runtimepath': "ftdetect/*.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/filetype.vim
+continuing in /Users/vveleva/.vimrc
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 2: sourcing "/opt/homebrew/share/vim/vim91/ftplugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/ftplugin.vim
+continuing in /Users/vveleva/.vimrc
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 2: sourcing "/opt/homebrew/share/vim/vim91/indent.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/indent.vim
+continuing in /Users/vveleva/.vimrc
+chdir(/opt/homebrew/share/vim/vim91/macros)
+fchdir() to previous dir
+line 3: sourcing "/opt/homebrew/share/vim/vim91/macros/matchit.vim"
+not found in 'packpath': "pack/*/start/matchit"
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim)
+fchdir() to previous dir
+chdir(/opt/homebrew/share/vim/vimfiles)
+fchdir() to previous dir
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+chdir(/opt/homebrew/share/vim/vim91/pack/dist/opt)
+fchdir() to previous dir
+chdir(/opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/pack/dist/opt/matchit/plugin)
+fchdir() to previous dir
+line 4: sourcing "/opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/pack/dist/opt/matchit/plugin/matchit.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/macros/matchit.vim
+finished sourcing /opt/homebrew/share/vim/vim91/macros/matchit.vim
+continuing in /Users/vveleva/.vimrc
+chdir(/opt/homebrew/share/vim/vim91/syntax)
+fchdir() to previous dir
+line 5: sourcing "/opt/homebrew/share/vim/vim91/syntax/syntax.vim"
+chdir(/opt/homebrew/share/vim/vim91/syntax)
+fchdir() to previous dir
+line 20: sourcing "/opt/homebrew/share/vim/vim91/syntax/synload.vim"
+chdir(/opt/homebrew/share/vim/vim91/syntax)
+fchdir() to previous dir
+line 22: sourcing "/opt/homebrew/share/vim/vim91/syntax/syncolor.vim"
+chdir(/opt/homebrew/share/vim/vim91/colors/lists)
+fchdir() to previous dir
+line 37: sourcing "/opt/homebrew/share/vim/vim91/colors/lists/default.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/colors/lists/default.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/syntax/syncolor.vim
+finished sourcing /opt/homebrew/share/vim/vim91/syntax/syncolor.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/syntax/synload.vim
+finished sourcing /opt/homebrew/share/vim/vim91/syntax/synload.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/syntax/syntax.vim
+Executing FileType Autocommands for "*"
+autocommand 0verbose exe "set syntax=" . expand("<amatch>")
+
+finished sourcing /opt/homebrew/share/vim/vim91/syntax/syntax.vim
+continuing in /Users/vveleva/.vimrc
+chdir(/Users/vveleva)
+fchdir() to previous dir
+line 60: sourcing "/Users/vveleva/.vimrc.keymappings"
+finished sourcing /Users/vveleva/.vimrc.keymappings
+continuing in /Users/vveleva/.vimrc
+chdir(/Users/vveleva)
+fchdir() to previous dir
+line 65: sourcing "/Users/vveleva/.vimrc.bundles"
+chdir(/Users/vveleva/.vim/autoload)
+fchdir() to previous dir
+line 1: sourcing "/Users/vveleva/.vim/autoload/plug.vim"
+finished sourcing /Users/vveleva/.vim/autoload/plug.vim
+continuing in /Users/vveleva/.vimrc.bundles
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 14: sourcing "/opt/homebrew/share/vim/vim91/ftoff.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/ftoff.vim
+continuing in plug#end
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 88: sourcing "/opt/homebrew/share/vim/vim91/filetype.vim"
+chdir(/Users/vveleva/.vim/bundle/vim-javascript/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-javascript/ftdetect/flow.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-javascript/ftdetect/flow.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-javascript/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-javascript/ftdetect/javascript.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-javascript/ftdetect/javascript.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-fugitive/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-fugitive/ftdetect/fugitive.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-fugitive/ftdetect/fugitive.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-haml/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-haml/ftdetect/haml.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-haml/ftdetect/haml.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-jst/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-jst/ftdetect/jst.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-jst/ftdetect/jst.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-coffee-script/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-coffee-script/ftdetect/coffee.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-coffee-script/ftdetect/coffee.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-coffee-script/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-coffee-script/ftdetect/vim-literate-coffeescript.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-coffee-script/ftdetect/vim-literate-coffeescript.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-cjsx/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-cjsx/ftdetect/cjsx.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-cjsx/ftdetect/cjsx.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-ruby/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-ruby/ftdetect/ruby.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-ruby/ftdetect/ruby.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-ruby/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-ruby/ftdetect/ruby_extra.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-ruby/ftdetect/ruby_extra.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vim-slim/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vim-slim/ftdetect/slim.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-slim/ftdetect/slim.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vimtex/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vimtex/ftdetect/cls.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vimtex/ftdetect/cls.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vimtex/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vimtex/ftdetect/tex.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vimtex/ftdetect/tex.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+chdir(/Users/vveleva/.vim/bundle/vimtex/ftdetect)
+fchdir() to previous dir
+line 3415: sourcing "/Users/vveleva/.vim/bundle/vimtex/ftdetect/tikz.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vimtex/ftdetect/tikz.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/filetype.vim
+finished sourcing /opt/homebrew/share/vim/vim91/filetype.vim
+continuing in plug#end
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 88: sourcing "/opt/homebrew/share/vim/vim91/ftplugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/ftplugin.vim
+continuing in plug#end
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+line 88: sourcing "/opt/homebrew/share/vim/vim91/indent.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/indent.vim
+continuing in plug#end
+finished sourcing /Users/vveleva/.vimrc.bundles
+continuing in /Users/vveleva/.vimrc
+chdir(/Users/vveleva)
+fchdir() to previous dir
+line 70: sourcing "/Users/vveleva/.vimrc.colors"
+chdir(/opt/homebrew/share/vim/vim91/colors/lists)
+fchdir() to previous dir
+line 2: sourcing "/opt/homebrew/share/vim/vim91/colors/lists/default.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/colors/lists/default.vim
+continuing in /Users/vveleva/.vimrc.colors
+chdir(/Users/vveleva/.vim/bundle/vim-colors-solarized/colors)
+fchdir() to previous dir
+line 2: sourcing "/Users/vveleva/.vim/bundle/vim-colors-solarized/colors/solarized.vim"
+chdir(/opt/homebrew/share/vim/vim91/syntax)
+fchdir() to previous dir
+line 228: sourcing "/opt/homebrew/share/vim/vim91/syntax/syncolor.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/syntax/syncolor.vim
+continuing in /Users/vveleva/.vim/bundle/vim-colors-solarized/colors/solarized.vim
+chdir(/opt/homebrew/share/vim/vim91/syntax)
+fchdir() to previous dir
+line 230: sourcing "/opt/homebrew/share/vim/vim91/syntax/syncolor.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/syntax/syncolor.vim
+continuing in /Users/vveleva/.vim/bundle/vim-colors-solarized/colors/solarized.vim
+finished sourcing /Users/vveleva/.vim/bundle/vim-colors-solarized/colors/solarized.vim
+continuing in /Users/vveleva/.vimrc.colors
+Executing ColorScheme Autocommands for "*"
+autocommand if g:colors_name != "solarized" | silent! aunmenu Solarized | else | call SolarizedMenu() | endif
+
+finished sourcing /Users/vveleva/.vimrc.colors
+continuing in /Users/vveleva/.vimrc
+finished sourcing $HOME/.vimrc
+not found in 'packpath': "pack/*/start/*"
+chdir(/Users/vveleva/.vim/bundle/vim-visual-star-search/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-visual-star-search/plugin/visual-star-search.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-visual-star-search/plugin/visual-star-search.vim
+chdir(/Users/vveleva/.vim/bundle/vim-tmux-navigator/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-tmux-navigator/plugin/tmux_navigator.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-tmux-navigator/plugin/tmux_navigator.vim
+chdir(/Users/vveleva/.vim/bundle/vim-keyword/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-keyword/plugin/keyword.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-keyword/plugin/keyword.vim
+chdir(/Users/vveleva/.vim/bundle/nerdtree/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/nerdtree/plugin/NERD_tree.vim"
+chdir(/Users/vveleva/.vim/bundle/nerdtree/autoload)
+fchdir() to previous dir
+line 59: sourcing "/Users/vveleva/.vim/bundle/nerdtree/autoload/nerdtree.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/autoload/nerdtree.vim
+continuing in /Users/vveleva/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 1: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/path.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/path.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 2: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 3: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 4: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 5: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 6: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 7: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 8: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/opener.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/opener.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 9: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/creator.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/creator.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 10: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 11: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/ui.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/ui.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 13: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/event.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/event.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree)
+fchdir() to previous dir
+line 14: sourcing "/Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim
+continuing in nerdtree#loadClassFiles
+chdir(/Users/vveleva/.vim/bundle/nerdtree/autoload/nerdtree)
+fchdir() to previous dir
+line 148: sourcing "/Users/vveleva/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim
+continuing in /Users/vveleva/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+chdir(/Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim
+continuing in nerdtree#postSourceActions
+chdir(/Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim
+continuing in nerdtree#postSourceActions
+chdir(/Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin)
+fchdir() to previous dir
+line 5: sourcing "/Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin/vcs.vim"
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/nerdtree_plugin/vcs.vim
+continuing in nerdtree#postSourceActions
+finished sourcing /Users/vveleva/.vim/bundle/nerdtree/plugin/NERD_tree.vim
+chdir(/Users/vveleva/.vim/bundle/vim-rspec/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-rspec/plugin/rspec.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-rspec/plugin/rspec.vim
+chdir(/Users/vveleva/.vim/bundle/tcomment_vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/tcomment_vim/plugin/tcomment.vim"
+chdir(/Users/vveleva/.vim/bundle/tcomment_vim/autoload/tcomment)
+fchdir() to previous dir
+line 17: sourcing "/Users/vveleva/.vim/bundle/tcomment_vim/autoload/tcomment/deprecated.vim"
+finished sourcing /Users/vveleva/.vim/bundle/tcomment_vim/autoload/tcomment/deprecated.vim
+continuing in /Users/vveleva/.vim/bundle/tcomment_vim/plugin/tcomment.vim
+finished sourcing /Users/vveleva/.vim/bundle/tcomment_vim/plugin/tcomment.vim
+chdir(/Users/vveleva/.vim/bundle/vim-commentary/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-commentary/plugin/commentary.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-commentary/plugin/commentary.vim
+chdir(/Users/vveleva/.vim/bundle/vim-fugitive/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-fugitive/plugin/fugitive.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-fugitive/plugin/fugitive.vim
+chdir(/Users/vveleva/.vim/bundle/vim-rails/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-rails/plugin/rails.vim"
+not found in 'runtimepath': "plugin/projectionist.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-rails/plugin/rails.vim
+chdir(/Users/vveleva/.vim/bundle/vim-rhubarb/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-rhubarb/plugin/rhubarb.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-rhubarb/plugin/rhubarb.vim
+chdir(/Users/vveleva/.vim/bundle/vim-surround/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-surround/plugin/surround.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-surround/plugin/surround.vim
+chdir(/Users/vveleva/.vim/bundle/ale/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/ale/plugin/ale.vim"
+chdir(/Users/vveleva/.vim/bundle/ale/autoload/ale)
+fchdir() to previous dir
+line 386: sourcing "/Users/vveleva/.vim/bundle/ale/autoload/ale/events.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/autoload/ale/events.vim
+continuing in /Users/vveleva/.vim/bundle/ale/plugin/ale.vim
+finished sourcing /Users/vveleva/.vim/bundle/ale/plugin/ale.vim
+chdir(/Users/vveleva/.vim/bundle/tlib_vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/tlib_vim/plugin/02tlib.vim"
+finished sourcing /Users/vveleva/.vim/bundle/tlib_vim/plugin/02tlib.vim
+chdir(/Users/vveleva/.vim/bundle/vim-snipmate/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-snipmate/plugin/snipMate.vim"
+chdir(/Users/vveleva/.vim/bundle/vim-addon-mw-utils/autoload)
+fchdir() to previous dir
+line 20: sourcing "/Users/vveleva/.vim/bundle/vim-addon-mw-utils/autoload/funcref.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-addon-mw-utils/autoload/funcref.vim
+continuing in /Users/vveleva/.vim/bundle/vim-snipmate/plugin/snipMate.vim
+finished sourcing /Users/vveleva/.vim/bundle/vim-snipmate/plugin/snipMate.vim
+chdir(/Users/vveleva/.vim/bundle/vim-snippets/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-snippets/plugin/vimsnippets.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-snippets/plugin/vimsnippets.vim
+chdir(/Users/vveleva/.vim/bundle/vimtex/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vimtex/plugin/vimtex.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vimtex/plugin/vimtex.vim
+chdir(/Users/vveleva/.vim/bundle/hexHighlight.vim/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/hexHighlight.vim/plugin/hexHighlight.vim"
+finished sourcing /Users/vveleva/.vim/bundle/hexHighlight.vim/plugin/hexHighlight.vim
+chdir(/Users/vveleva/.vim/bundle/vim-slime/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-slime/plugin/slime.vim"
+chdir(/Users/vveleva/.vim/bundle/vim-slime/autoload/slime)
+fchdir() to previous dir
+line 41: sourcing "/Users/vveleva/.vim/bundle/vim-slime/autoload/slime/config.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-slime/autoload/slime/config.vim
+continuing in /Users/vveleva/.vim/bundle/vim-slime/plugin/slime.vim
+finished sourcing /Users/vveleva/.vim/bundle/vim-slime/plugin/slime.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/colorresp.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/colorresp.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/getscriptPlugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/getscriptPlugin.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/gzip.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/gzip.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/logiPat.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/logiPat.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/manpager.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/manpager.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/matchparen.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/matchparen.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/netrwPlugin.vim"
+not found in 'packpath': "pack/*/start/netrw"
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-visual-star-search)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-tmux-navigator)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-javascript)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-keyword)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/nerdtree)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/pick.vim)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/pick)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-rspec)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/tcomment_vim)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-commentary)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-fugitive)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-haml)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-rails)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-rhubarb)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-surround)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/ale)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-jst)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-coffee-script)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-cjsx)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-ruby)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-instant-markdown)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-slim)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-addon-mw-utils)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/tlib_vim)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-snipmate)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-snippets)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vimtex)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-css-color)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/hexHighlight.vim)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-colors-solarized)
+fchdir() to previous dir
+chdir(/Users/vveleva/.vim/bundle/vim-slime)
+fchdir() to previous dir
+chdir(/opt/homebrew/share/vim/vimfiles)
+fchdir() to previous dir
+chdir(/opt/homebrew/share/vim/vim91)
+fchdir() to previous dir
+chdir(/opt/homebrew/share/vim/vim91/pack/dist/opt)
+fchdir() to previous dir
+chdir(/opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/pack/dist/opt/netrw/plugin)
+fchdir() to previous dir
+line 7: sourcing "/opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/pack/dist/opt/netrw/plugin/netrwPlugin.vim"
+finished sourcing /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/pack/dist/opt/netrw/plugin/netrwPlugin.vim
+continuing in /opt/homebrew/Cellar/vim/9.1.1750/share/vim/vim91/plugin/netrwPlugin.vim
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/netrwPlugin.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/openPlugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/openPlugin.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/rrhelper.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/rrhelper.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/spellfile.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/spellfile.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/tarPlugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/tarPlugin.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/tohtml.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/tohtml.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/tutor.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/tutor.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/vimballPlugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/vimballPlugin.vim
+chdir(/opt/homebrew/share/vim/vim91/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/plugin/zipPlugin.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/plugin/zipPlugin.vim
+chdir(/opt/homebrew/share/vim/vim91/pack/dist/opt/matchit/plugin)
+fchdir() to previous dir
+sourcing "/opt/homebrew/share/vim/vim91/pack/dist/opt/matchit/plugin/matchit.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/pack/dist/opt/matchit/plugin/matchit.vim
+not found in 'packpath': "pack/*/start/*"
+chdir(/Users/vveleva/.vim/bundle/vim-snipmate/after/plugin)
+fchdir() to previous dir
+sourcing "/Users/vveleva/.vim/bundle/vim-snipmate/after/plugin/snipMate.vim"
+finished sourcing /Users/vveleva/.vim/bundle/vim-snipmate/after/plugin/snipMate.vim
+Reading viminfo file "/Users/vveleva/.viminfo" info oldfiles
+".prettierrc.yml" 
+".prettierrc.yml" 4L, 66B
+Reading viminfo file "/Users/vveleva/.viminfo" marks
+Executing BufRead Autocommands for "*.yml"
+autocommand setf yaml
+
+Executing FileType Autocommands for "*"
+autocommand call LoadFTPlugin()
+
+chdir(/opt/homebrew/share/vim/vim91/ftplugin)
+fchdir() to previous dir
+line 18: sourcing "/opt/homebrew/share/vim/vim91/ftplugin/yaml.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/ftplugin/yaml.vim
+continuing in <SNR>3_LoadFTPlugin
+Executing FileType Autocommands for "*"
+autocommand call s:LoadIndent()
+
+chdir(/opt/homebrew/share/vim/vim91/indent)
+fchdir() to previous dir
+line 14: sourcing "/opt/homebrew/share/vim/vim91/indent/yaml.vim"
+finished sourcing /opt/homebrew/share/vim/vim91/indent/yaml.vim
+continuing in <SNR>4_LoadIndent
+Executing FileType Autocommands for "*"
+autocommand 0verbose exe "set syntax=" . expand("<amatch>")
+
+Executing FileType Autocommands for "*"
+autocommand if RailsDetect() | call rails#buffer_setup() | endif
+
+Executing FileType Autocommands for "*"
+autocommand call ale#events#FileTypeEvent(   str2nr(expand('<abuf>')),   expand('<amatch>'))
+
+Executing BufRead Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufRead Autocommands for "*"
+autocommand call s:SelectJavascript()
+
+Executing BufRead Autocommands for "*"
+autocommand call s:DetectCoffee()
+
+Executing BufRead Autocommands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (expand("<amatch>") =~# '\.conf$'^I|| getline(1) =~ '^#' || getline(2) =~ '^#'^I|| getline(3) =~ '^#' || getline(4) =~ '^#'^I|| getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing BufRead Autocommands for "*"
+autocommand if exists('b:git_dir') && b:git_dir =~# '^$\|' . s:bad_git_dir |   unlet b:git_dir | endif
+
+Executing BufRead Autocommands for "*"
+autocommand if RailsDetect() && empty(&filetype) |   call rails#buffer_setup() | endif
+
+Executing BufRead Autocommands for "*"
+autocommand call ale#events#ReadOrEnterEvent(str2nr(expand('<abuf>')))
+
+Executing BufWinEnter Autocommands for "*"
+autocommand call ale#events#LintOnEnter(str2nr(expand('<abuf>')))
+
+chdir(/Users/vveleva/.vim/bundle/ale/autoload)
+fchdir() to previous dir
+line 4: sourcing "/Users/vveleva/.vim/bundle/ale/autoload/ale.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/autoload/ale.vim
+continuing in ale#events#LintOnEnter
+chdir(/Users/vveleva/.vim/bundle/ale/autoload/ale)
+fchdir() to previous dir
+line 44: sourcing "/Users/vveleva/.vim/bundle/ale/autoload/ale/util.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/autoload/ale/util.vim
+continuing in ale#ShouldDoNothing
+chdir(/Users/vveleva/.vim/bundle/ale/autoload/ale)
+fchdir() to previous dir
+line 3: sourcing "/Users/vveleva/.vim/bundle/ale/autoload/ale/linter.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/autoload/ale/linter.vim
+continuing in <SNR>93_Lint
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/actionlint.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/actionlint.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/circleci.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/circleci.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/gitlablint.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/gitlablint.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/ls.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/ls.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/spectral.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/spectral.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/swaglint.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/swaglint.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/yamllint.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/yamllint.vim
+continuing in ale#linter#GetAll
+chdir(/Users/vveleva/.vim/bundle/ale/ale_linters/yaml)
+fchdir() to previous dir
+line 12: sourcing "/Users/vveleva/.vim/bundle/ale/ale_linters/yaml/yq.vim"
+finished sourcing /Users/vveleva/.vim/bundle/ale/ale_linters/yaml/yq.vim
+continuing in ale#linter#GetAll
+No matching autocommands: User ALEWantResults
+Executing BufWinEnter Autocommands for "*"
+autocommand autocmd SafeState * ++once call s:Highlight_Matching_Pair()
+
+Executing BufEnter Autocommands for "*"
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing BufEnter Autocommands for "*"
+autocommand if expand('%') ==# '' && &previewwindow && pumvisible() && getbufvar('#', '&omnifunc') ==# 'rhubarb#omnifunc' |    setlocal nolist linebreak filetype=markdown | endif
+
+Executing BufEnter Autocommands for "*"
+autocommand call ale#events#ReadOrEnterEvent(str2nr(expand('<abuf>')))
+
+Executing BufEnter Autocommands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Autocommands for "*"
+autocommand silent! autocmd! FileExplorer
+
+autocommand call nerdtree#checkForBrowse(expand('<amatch>'))
+
+Executing VimEnter Autocommands for "*"
+autocommand if get(g:, 'rails_vim_enter', get(g:, 'projectionist_vim_enter', 1)) &&     argc() == 0 && RailsDetect(getcwd()) |   call rails#buffer_setup() | endif
+
+Executing VimEnter Autocommands for "*"
+autocommand call s:abolish_setup()
+
+Executing VimEnter Autocommands for "*"
+autocommand {^@    call echoraw(&t_RB)^@    call echoraw(&t_RF)^@  }
+
+Executing CursorMoved Autocommands for "*"
+autocommand if exists('*ale#engine#Cleanup') | call ale#cursor#EchoCursorWarningWithDelay() | endif
+
+Executing CursorMoved Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+Executing SafeState Autocommands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+E117: Unknown function: PickFile
+
+Executing QuitPre Autocommands for "*"
+autocommand call ale#events#QuitEvent(str2nr(expand('<abuf>')))
+
+Writing viminfo file "/Users/vveleva/.viminfo"

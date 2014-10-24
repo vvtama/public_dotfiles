@@ -1,0 +1,88 @@
+body, #jira-frontend {
+background-color: #1E2B30;
+}
+.aui-page-header, .aui-page-panel, .aui-page-panel-nav {
+background-color: #1E2B30;
+}
+.css-1s1v97q, .gkbBhY {
+background-color: #1E2B30;
+}
+.css-1764c62::after {
+background: none;
+}
+.css-1nabfbr, .css-1nabfbr:hover, .css-1nabfbr:active, .css-1nabfbr:focus, .css-1nabfbr:visited, .css-1nabfbr:disabled, .css-1nabfbr[disabled] {
+color:#268AD2
+}
+
+#ghx-pool, #ghx-column-header-group.ghx-fixed {
+background-color: #1E2B30;
+}
+
+.ghx-column-headers .ghx-column, .ghx-columns .ghx-column, .adg3 .ghx-column-headers .ghx-column, .adg3 .ghx-columns .ghx-column {
+background-color: #263338;
+}
+.ghx-issue {
+background-color: #364348;
+}
+.adg3 .ghx-summary, .adg3 .ghx-summary .ghx-inner, .bqOJnq, h1, h2, h3, h4, body, .cbelDw {
+color: #93A0A1;
+}
+[data-test-id="profilecard-next.ui.profilecard.profilecard-trigger"], .gdQqCI {
+color: #EEE8D5;
+}
+a { color: #268AD2 }
+[role="presentation"] a { color: #162328;}
+
+[data-test-id="issue-view-layout-templates-views.ui.context.visible-hidden.ui.primary-items"] > div > div > div, [data-test-id="issue-view-layout-group.common.ui.collapsible-group-factory.secondary-context-items"], .imhCZB {
+border-color: #465358;
+}
+
+.css-1u84ut1, .css-zyarao, .css-85q5jz, .css-l9c1ko {
+background-color: #263338;
+}
+.css-nh9cge {
+color: #268AD2;
+background-color: #1E2B30;
+}
+.css-nh9cge [data-item-title] {
+color: #268AD2;
+}
+
+.css-1u84ut1, .css-zyarao, .css-85q5jz [data-item-title] {
+color:  #839495;
+}
+.css-dycak9 {
+color: #839495;
+background-color: #1E2B30;
+}
+#jira.adg3 .aui-label, #jira.adg3 .aui-lozenge, #jira.adg3 .ghx-swatch {
+font-size: 11px;
+}
+.aui-badge, aui-badge {
+font-size: 10px;
+line-height: 11px;
+height: 12px;
+padding-left: 3px;
+padding-right: 3px;
+background-color: #465358;
+color: #fff;
+}
+
+#content #search-header-view .header-section-primary .aui-nav>li>h1, #content #search-header-view .header-section-primary .aui-page-header-inner>h1, #content #search-header-view .header-section-primary .legacy-jira-fe-module>.mod-header>h3, #content #search-header-view .header-section-primary .search-title, #content #search-header-view .header-section-primary .subnavigator-title, #content #search-header-view .header-section-primary>h1, #content .aui-page-header-main .aui-nav>li>h1, #content .aui-page-header-main .aui-page-header-inner>h1, #content .aui-page-header-main .legacy-jira-fe-module>.mod-header>h3, #content .aui-page-header-main .search-title, #content .aui-page-header-main .subnavigator-title, #content .aui-page-header-main>h1, #content .aui-page-panel .aui-nav>li>h1, #content .aui-page-panel .aui-page-header-inner>h1, #content .aui-page-panel .legacy-jira-fe-module>.mod-header>h3, #content .aui-page-panel .search-title, #content .aui-page-panel .subnavigator-title, #content .aui-page-panel>h1 {
+color: #93A0A1;
+}
+
+.css-pe33hu {
+background-color: #465358;
+box-shadow: #162328 0px 0px 0px 2px;
+}
+.ibWXUP {
+border-color: #268AD2;
+}
+.hFCFBS {
+border-color: #162328;
+background-color: #465358;
+}
+.css-j9ugy0::before, .css-j9ugy0::after {
+  background-color: var(--ds-menu-scroll-indicator-color,#162328);
+}

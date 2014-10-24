@@ -1,0 +1,82 @@
+:root {
+  color-scheme: dark;
+  --bold-border: #0e1b20;
+  --border: #465358;
+  --black: #263338;
+  --bold-black: #1e2b30;
+  --black-cyan: #264348;
+  --blue: #268ad2;
+  --light-blue: #46aaf2;
+  --dark-blue: #293e47;
+  --bold-blue: #839495;
+  --cyan: #2aa197;
+  --bold-cyan: #93a0a1;
+  --gray-dark: #263338;
+  --gray: #465358;
+  --green: #859901;
+  --bold-green: #586d74;
+  --bold-magenta: #8c8ee6;
+  --indigo: #6c6ec6;
+  --magenta: #d33582;
+  --orange: #fd7e14;
+  --pink: #e83e8c;
+  --purple: #8c8ee6;
+  --light-purple: #caccef;
+  --red: #dc312e;
+  --red-pink: #dc3545;
+  --bold-red: #cb4a16;
+  --teal: #20c997;
+  --white: #eee8d5;
+  --bold-white: #fdf6e3;
+  --bold-yellow: #657b82;
+  --yellow: #e5a900;
+  --primary: #268ad2;
+  --secondary: #93a0a1;
+  --success: #859901;
+  --info: #2aa197;
+  --warning: #b58900;
+  --danger: #dc312e;
+  --dark: #1e2b30;
+  --darker: #0e1b20;
+  --light: #eaecef;
+  --green-highlight: rgb(232, 255, 151);
+
+  --gray-50: #fefdff;
+  --gray-100: #e3e3e6;
+  --gray-200: #c8cacd;
+  --gray-300: #99a6ab;
+  --gray-400: #839095;
+  --gray-500: #6d7b80;
+  --gray-600: #59666b;
+  --gray-700: #455257;
+  --gray-750: #3b484d;
+  --gray-800: #323f44;
+  --gray-900: #1f2c31;
+  --gray-950: #172329;
+}
+
+body.dark {
+  background: var(--bold-black);
+}
+.notion-dark-theme {
+  --c-bacPri: var(--bold-black);
+  --c-bacSec: var(--darker);
+  --c-bacTer: var(--black);
+  --c-bacEle: var(--darker);
+  --c-graBacSec: var(--black);
+  --c-borPri: var(--border);
+  --c-tabDivCol: var(--border);
+  --c-graTexSec: var(--bold-yellow);
+  --c-sidTexCol: var(--bold-cyan);
+  --c-sidSecCol: var(--bold-cyan);
+  --c-graTexAccPri: var(--bold-blue);
+  --c-texPri: var(--white);
+  --c-texSec: var(--bold-cyan);
+  --c-texTer: var(--bold-green);
+  --c-texDis: var(--black);
+  --c-icoPri: var(--white);
+  --c-icoSec: var(--bold-cyan);
+  --c-icoTer: var(--bold-green);
+  --c-icoDis: var(--black);
+  --c-icoAccPri: var(--bold-yellow);
+}

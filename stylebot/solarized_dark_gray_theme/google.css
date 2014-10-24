@@ -1,0 +1,83 @@
+html :not(div[aria-label='Street View']) > canvas.widget-scene-canvas {
+  -webkit-filter: sepia(1%) invert(1) hue-rotate(182deg) saturate(1) brightness(1.25);
+    }
+:root {
+  --app-background: #0e1b20;
+  color-scheme: dark;
+  --bold-border-color: #0e1b20;
+  --border-color: #465358;
+  --black-color: #263338;
+  --bold-black-color: #1e2b30;
+  --red-color: #dc312e;
+  --bold-red-color: #cb4a16;
+  --green-color: #859901;
+  --bold-green-color: #586d74;
+  --yellow-color: #b58900;
+  --bold-yellow-color: #657b82;
+  --blue-color: #268ad2;
+  --bold-blue-color: #839495;
+  --magenta-color: #d33582;
+  --bold-magenta-color: #8c8ee6;
+  --cyan-color: #2aa197;
+  --bold-cyan-color: #93a0a1;
+  --white-color: #eee8d5;
+  --bold-white-color: #fdf6e3;
+  --blue: #268ad2;
+  --light-blue: #46aaf2;
+  --indigo: #6c6ec6;
+  --purple: #8c8ee6;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #b58900;
+  --green: #859901;
+  --teal: #20c997;
+  --cyan: #2aa197;
+  --white: #fdf6e3;
+  --gray: #465358;
+  --gray-dark: #263338;
+  --primary: #268ad2;
+  --secondary: #93a0a1;
+  --success: #859901;
+  --info: #2aa197;
+  --warning: #b58900;
+  --danger: #dc312e;
+  --light: #eee8d5;
+  --dark: #1e2b30;
+    --xhUGwc: var(--dark);
+    --gS5jXb: #fff335;
+    --Aqn7xd: #44f746;
+    --EpFNW: #ff1f1f;
+    --IXoxUe: var(--bold-yellow-color);
+    --bbQxAb: var(--green-color);
+    --YLNNHc: var(--bold-white-color);
+    --TMYS9: #a8c7fa;
+    --JKqx2: #99c3ff;
+    --rrJJUc: #a8c7fa;
+    --mXZkqc: #f447f6;
+    --Nsm0ce: #a8c7fa;
+    --XKMDxc: var(--bold-black-color);
+    --aYn2S: var(--black-color);
+    --Lm570b: #fa3f50;
+    --gS5jXb: var(--border-color);
+    --TMYS9: var(--cyan-color);
+    --JKqx2: var(--light-blue);
+}
+
+html, body, .minidiv .sfbg {
+  background-color: var(--bold-black-color);
+  color: var(--bold-cyan-color);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--bold-white-color);
+}
+.KLEmSd {
+  border-color: var(--border-color)
+}
+.RNNXgb, .aajZCb, .vIifob, .fxvkXe, .p8Jhnd {
+  background-color: var(--black-color);
+  color: var(--bold-cyan-color);
+}
+.r025kc.lVm3ye {
+  color: var(--bold-cyan-color);
+}

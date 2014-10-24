@@ -1,0 +1,28 @@
+/* https://polygon.io/ */
+
+:host, :root {
+  --color-gray-900: oklch(28% .02 223.58);
+  --color-gray-800:  oklch(31% .02 223.58);
+  --spacing: .22rem;
+}
+.pt-12 {
+  padding-top: .2rem;
+}
+.max-w-\[1200px\] {
+  max-width: 1400px;
+}
+#response-code-display, #response-code-display .scrollbar-thin {
+  background-color: var(--color-gray-800);
+}
+[style="color: rgb(152, 104, 1);"] {
+  color: #dB7A26;
+}
+[style="color: rgb(80, 161, 79);"] {
+  color: #859901;
+}
+[style="color: rgb(1, 132, 187);"] {
+  color: #46aAf2;
+}
+.border:hover .items-center .items-center, .border:hover .items-center .text-xs.text-gray-500, .border:hover .items-center, .border:hover .text-xs.text-gray-500 {
+  color:  rgb(232, 255, 151);
+}

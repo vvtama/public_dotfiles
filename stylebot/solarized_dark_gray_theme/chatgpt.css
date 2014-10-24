@@ -1,0 +1,97 @@
+:root {
+  color-scheme: dark;
+  --bold-border: #0e1b20;
+  --border: #465358;
+  --black: #263338;
+  --bold-black: #1e2b30;
+  --black-cyan: #264348;
+  --blue: #268ad2;
+  --light-blue: #46aaf2;
+  --dark-blue: #293e47;
+  --bold-blue: #839495;
+  --cyan: #2aa197;
+  --bold-cyan: #93a0a1;
+  --gray-dark: #263338;
+  --gray: #465358;
+  --green: #859901;
+  --bold-green: #586d74;
+  --bold-magenta: #8c8ee6;
+  --indigo: #6c6ec6;
+  --magenta: #d33582;
+  --orange: #fd7e14;
+  --pink: #e83e8c;
+  --purple: #8c8ee6;
+  --light-purple: #caccef;
+  --red: #dc312e;
+  --red-pink: #dc3545;
+  --bold-red: #cb4a16;
+  --teal: #20c997;
+  --white: #eee8d5;
+  --bold-white: #fdf6e3;
+  --bold-yellow: #657b82;
+  --yellow: #b58900;
+  --primary: #268ad2;
+  --secondary: #93a0a1;
+  --success: #859901;
+  --info: #2aa197;
+  --warning: #b58900;
+  --danger: #dc312e;
+  --dark: #1e2b30;
+  --darker: #0e1b20;
+  --light: #eaecef;
+
+  --gray-50: #fefdff;
+  --gray-100: #e3e3e6;
+  --gray-200: #c8cacd;
+  --gray-300: #99a6ab;
+  --gray-400: #839095;
+  --gray-500: #6d7b80;
+  --gray-600: #59666b;
+  --gray-700: #455257;
+  --gray-750: #3b484d;
+  --gray-800: #323f44;
+  --gray-950: #2f3c41;
+  --gray-900: #273439;
+  --gray-950: #172329;
+
+  --bg-primary: var(--bold-black);
+  --bg-secondary: var(--black);
+  --bg-tertiary: #364348;
+  --bg-elevated-primary: var(--black);
+  --bg-elevated-secondary: #2d3a3f;
+  --border-light: var(--border);
+}
+
+body, hr {
+  border-color: var(--border);
+}
+
+.prose :where(pre):not(:where([class~=not-prose],[class~=not-prose] *)) {
+  line-height: 1.3;
+}
+.rounded-2xl {
+  border-radius: var(--radius-md);
+}
+
+.p-4 {
+  padding: calc(var(--spacing) * 2);
+}
+
+:is(.light .dark,.dark) .hljs-bullet, :is(.light .dark,.dark) .hljs-link, :is(.light .dark,.dark) .hljs-selector-id, :is(.light .dark,.dark) .hljs-symbol, :is(.light .dark,.dark) .hljs-title {
+  color: var(--red);
+}
+:is(.light .dark,.dark) .hljs-addition, :is(.light .dark,.dark) .hljs-attribute, :is(.light .dark,.dark) .hljs-meta-string, :is(.light .dark,.dark) .hljs-regexp, :is(.light .dark,.dark) .hljs-string {
+  color: var(--green);
+}
+:is(.light .dark,.dark) .hljs-doctag, :is(.light .dark,.dark) .hljs-formula, :is(.light .dark,.dark) .hljs-keyword, :is(.light .dark,.dark) .hljs-literal {
+  color: var(--blue);
+}
+:is(.light .dark,.dark) .hljs-attr, :is(.light .dark,.dark) .hljs-number, :is(.light .dark,.dark) .hljs-selector-attr, :is(.light .dark,.dark) .hljs-selector-class, :is(.light .dark,.dark) .hljs-selector-pseudo, :is(.light .dark,.dark) .hljs-template-variable, :is(.light .dark,.dark) .hljs-type, :is(.light .dark,.dark) .hljs-variable {
+  color: var(--magenta);
+}
+
+@container thread (min-width: 64rem) {
+  .thread-lg\:\[--thread-content-max-width\:48rem\] {
+    --thread-content-max-width: max(48rem,80%);
+  }
+}

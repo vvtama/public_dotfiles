@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail",
+  "version": "1.0",
+  "content_scripts": [{
+    "matches": [ "*://mail.google.com/*" ],
+    "css": ["main.css"],
+    "js": ["jquery-1.11.1.min.js", "jquery.highlight-4.js", "test.js"]
+  }],
+  "web_accessible_resources": [{
+    "resources": ["main.css", "test.js", "jquery-1.11.1.min.js", "jquery.highlight-4.js"],
+    "matches": [ "*://mail.google.com/*" ]
+  }]
+}

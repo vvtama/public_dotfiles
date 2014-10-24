@@ -1,0 +1,116 @@
+:root {
+  --magenta-color: #d33582;
+  --purple-color: #6c6ec6;
+  --background-color: #1E2B30;
+  --background-color-light: #263338;
+  --border-color: #465358;
+  --background-green: #264338;
+  --blue-color: #268AD2;
+}
+
+*, .tablesorter th, .cal .dys th, .cal td, .cl-search-dropdown input, fieldset, .cl-chat-conversation .chat-controls textarea, .cl-chat-navigator .cl-chat-summary, .cl-chat-component-floating>div {
+  border-color: #465358;
+}
+body, #curtain .content, .cl-search-dropdown .results, input, .cl-search-filters-panel, .highlight, .error {
+  color: white;
+  background-color: #1E2B30;
+  font-family: sans-serif;
+}
+#curtain p {
+  color: white;
+}
+#topban .sublinks li, #topban .sublinks a, .cal td, .cl-chat-summary, .cl-chat-navigator{
+  background-color: #1E2B30;
+}
+article.page-container, .tablesorter, .tabcontainer b, .cl-search-query .cl-query-bar, .homepage #rightbar, .homepage .col ul, .cl-chat-navigator .chat-summary-list {
+  background-color: #1E2B30;
+  color: lightgrey;
+}
+.ban, .leftbar, #topban, textarea {
+  background-color: #263338;
+  border-color: #465358;
+  color: white;
+}
+
+fieldset, .account-header, .posting .attrgroup span, .global-header, footer, header {
+  background-color: #263338;
+}
+
+.account table.accthp_postings td.deleted {
+  background-color: #563338;
+  color: lightgrey;
+}
+
+.account table.accthp_postings td.expired {
+  background-color: #463358;
+  color: lightgrey;
+}
+.account table.accthp_postings td.active {
+  background-color: var(--background-green);
+  color: white;
+}
+.ui-state-default a, .ui-widget-content a, .account.desktop .managebtn, .account .filterbtn, a, .account #advanced-button, .bd-button, .cl-search-filters-panel .cl-title-bar .back-and-title-links h1, .related-searches .link-like, .cl-search-map-info .zoom-out, .homepage #rightbar h5 {
+  color: #268AD2;
+}
+.tablesorter th, .cl-chat-conversation, .cl-chat-conversation .cl-chat-summary, .cl-chat-conversation .chat-message-list-flex-spacer, .cl-chat-conversation .chat-message-list {
+  color: #a6b3b8;
+  background-color: var(--background-color);
+}
+.tablesorter th, .cl-chat-message .text {
+  color: #a6b3b8;
+  background-color: #263338;
+}
+.cl-chat-conversation .cl-chat-summary .text .title-fade {
+  background: linear-gradient(to right, rgba(238, 238, 238, 0) 0%,var(--background-color) 100%);
+}
+.bd-button {
+  background-color: #364348;
+}
+
+.actions-combo .action .action-label {
+  color: #a6b3b8;
+}
+
+.posting #postingbody {
+  max-width: 100%;
+  height: 50vh;
+  border-bottom: 3px solid #859901;
+}
+
+.posting #postingbody, h1, h2, h3, h4, h5 {
+  font-family: sans-serif;
+}
+
+.msap :not(div){
+  -webkit-filter: sepia(0%) invert(1) hue-rotate(184deg) saturate(1) brightness(1.25);
+}
+
+#paginator, #paginator .accthp_postings, #searchfieldset {
+  background-color: var(--background-color);
+  border: none;
+}
+
+.ui-state-default a:visited, .ui-widget-content a:visited {
+  color: var(--purple-color);
+}
+input:not(.managebtn) {
+  outline: none;
+  border: 1px solid var(--border-color);
+}
+input[type="submit" i][value="search"] {
+  border-width: 1px;
+  border-color: var(--border-color);
+  border: none;
+  background-color: var(--blue-color);
+}
+
+.about-modal-backdrop .about-modal {
+  background-color: var(--background-color-light);
+}
+
+.managestatus {
+  background-color: var(--background-green);
+}
+#loginWidget {
+  color: #859901;
+}

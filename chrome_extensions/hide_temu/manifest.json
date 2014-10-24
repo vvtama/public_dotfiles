@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+
+  "name": "Hide Temu",
+  "version": "1",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.google.com/*"
+      ],
+      "css": ["hide_temu.css"],
+      "js": ["jquery-1.11.1.min.js", "hide_temu.js"],
+      "run_at" : "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "hide_temu.css", "hide_temu.js", "jquery-1.11.1.min.js"],
+      "matches": [
+        "*://google.com/*"
+      ]
+    }
+  ]
+}
