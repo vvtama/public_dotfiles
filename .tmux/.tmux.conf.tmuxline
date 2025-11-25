@@ -1,0 +1,46 @@
+##### STATUS BAR ###########################################################
+set -g status-interval 30 # set refresh interval for status bar
+set -g status-justify left # center the status bar
+
+# visual notification of activity in other windows
+setw -g monitor-activity on
+set -g visual-activity on
+
+# local variables
+gray=colour238
+purple=colour60
+true_black=colour16
+l_arrow="#[nobold, nounderscore, noitalics]"
+r_arrow="#[nobold, nounderscore, noitalics]"
+gray_style="#[fg=$gray, bg=brightblack]"
+
+set -g status-left "#[fg=$true_black, bg=green] #{session_name} #[fg=green, bg=brightblack]$r_arrow "
+
+year="#[fg=white, bg=$gray] %Y-%m-%d"
+time="#[fg=white]%l:%M %p"
+time_stats="$gray_style$l_arrow$year #[fg=green]  $time "
+laptop_stat="#[fg=green]$l_arrow#[fg=$true_black, bg=green] #h" # eg. vvvmbp13
+
+set -g status-right "$time_stats $laptop_stat "
+
+
+# color for status bar
+setw -g window-status-fg colour85
+setw -g window-status-bg colour233
+
+setw -g window-status-activity-fg green
+setw -g window-status-activity-bg colour233
+
+setw -g window-status-separator ""
+
+
+wi_arrow="#{window_index} "
+
+window_name_stats="#[fg=green]$wi_arrow #{window_name} $gray_style$r_arrow"
+
+setw -g window-status-current-format "#[fg=brightblack, bg=$gray]$r_arrow $window_name_stats"
+
+wsf_active="#[fg=brightblack] #[bg=green]$wi_arrow#[bg=magenta]"
+wsf_inactive="#[bg=brightblack] #[fg=green]$wi_arrow#[fg=brightmagenta]"
+
+setw -g window-status-format "#{?window_activity_flag,$wsf_active,$wsf_inactive} #{window_name} "

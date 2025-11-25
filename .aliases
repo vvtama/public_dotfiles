@@ -1,0 +1,73 @@
+alias ...='cd ../..'
+alias ack='ack --group --color'
+alias grep='grep --color'
+alias l='ls'
+alias less='LESSOPEN="|pygmentize -g %s" less -R'
+alias ll='ls -alrth'
+alias ls='ls -FGha'
+alias sl='sl -aFlc'
+alias tree='tree -C | less'
+alias e="$EDITOR"
+alias v='vim'
+
+update_ruby() {
+  cd ~/.rbenv/plugins/ruby-build/
+  git pull origin master
+  cd -
+  rbenv install $@
+}
+
+alias locate='mdfind -name'
+alias jumpstat="autojump --stat"
+alias snippets="cd ~/.vim/bundle/vim-snippets/snippets"
+alias path="echo $PATH | tr -s ':' '\n'"
+
+alias bubu="brew update && brew upgrade && brew cleanup"
+
+
+##### GIT ######################################################################
+
+alias b='bundle'
+alias be='bundle exec'
+alias cms='bundle exec rake db:create db:migrate db:test:prepare db:seed'
+alias wip='git add -A; git commit -m wip'
+
+unwip() {
+  glog=`git log -1 --pretty=%B`;
+  if [[ $glog == "wip" ]]; then g reset HEAD^;
+  else echo "last commit is not wip";
+  fi
+}
+
+alias croutes='be rails routes | colrou'
+
+gcb() { git checkout -b "$@"; }
+gdv() { git diff -w "$@" | view - }
+
+# run pick inside git repo and copy result to clipboard
+gcopy() { temp=`git ls-files | pick`; echo $temp; echo $temp | pbcopy; }
+
+
+##### TMUX #####################################################################
+
+alias ta='tmux attach -t'
+alias ts='tmux new-session -s'
+alias tl='tmux list-sessions'
+alias tksv='tmux kill-server'
+alias tkss='tmux kill-session -t'
+
+
+##### TERMINAL COLORS  #########################################################
+
+colors() { ruby ~/public_dotfiles/iterm_colors.rb }
+
+terminal_colors() {
+  for x in 0 1 4 5 7 8;
+    do for i in `seq 30 37`;
+      do for a in `seq 40 47`;
+        do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done;
+        echo;
+      done;
+    done;
+  echo "";
+}
